@@ -62,7 +62,7 @@
 					<img src="{{ url_for('static', filename='icon.svg') }}" alt="" class="logo">
 					<span>LibreTranslate</span>
 				</a>
-				<ul id="nav" class="right hide-on-med-and-down top-nav position-relative">
+				<ul id="nav" class="right hide-on-med-and-down top-nav position-relative" style="visibility:invisible">
 					{% set menulinks %}
 					<li><a href="{{ swagger_url }}">{{ _h("API Docs") }}</a></li>
 					{% if get_api_key_link %}
